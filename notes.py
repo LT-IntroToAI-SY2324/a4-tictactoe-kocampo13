@@ -11,11 +11,11 @@ class Dog:
     def __init__(self, n = "", fc = "", a = 0, ff = "",):
     # """"Creates an instance of the dog class and sets attributes"""
     
-    self.name = n
-    self.fur_colour = fc
-    self.age = a
-    self.favourite_food = ff
-    self.fetch_count = 0
+        self.name = n
+        self.fur_colour = fc
+        self.age = a
+        self.favourite_food = ff
+        self.fetch_count = 0
 
     def __str__(self) -> str:
         """"Return a string representation of a dog"""
@@ -40,4 +40,5 @@ mydog.play_fetch(20)
 chrisdog.play_fetch(3)
 
 print(mydog)
-print((chrisdog.name) has played fetch 
+# print((chrisdog.name) has played fetch 
+
